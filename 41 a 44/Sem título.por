@@ -1,11 +1,16 @@
 programa {
   funcao inicio() 
   {
-   inteiro i 
+    cadeia nome
+    escreva("Digite seu nome: ")
+    leia(nome)
 
-   para (i = 0; i <= 20; i++){
-    escreva("Eu gosto de estudar algoritmos")
-   }
+    inteiro numero, i
+    escreva("Digite um número: ")
+    leia(numero)
+
+    para 
+
 
   }
 }

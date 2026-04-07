@@ -1,19 +1,26 @@
 programa {
   funcao inicio() 
   {
-    inteiro i
-    inteiro soma = 0
+    cadeia nome
+    escreva("Digite seu nome: ")
+    leia(nome)
 
-    para (i = 1; i <= 15; i++){
-      soma = soma + i
-    }
+    inteiro numero, i
+    escreva("Digite um número: ")
+    leia(numero)
 
-    escreva("A soma é: ", soma)
+    para (i = 1; i <= numero; i++)
+      {
+        escreva(i, " - ", nome, "\n")
+      }
 
-
+     
 
     
+      
+       
+      
 
-    
+
   }
 }
